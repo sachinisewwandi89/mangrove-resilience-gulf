@@ -29,30 +29,6 @@ Queensland: **135.0–141.5°E, 14.0–18.0°S**.
 
 ---
 
-## Repository contents
-
-### `/scripts` — Google Earth Engine (JavaScript)
-
-| File | Purpose |
-|---|---|
-| `00_setup_test.js` | Environment check |
-| `01_annual_composites.js` | Original Phase 1 pipeline (superseded — retained for the harmonisation before/after comparison) |
-| `01b_annual_composites_harmonised.js` | **Phase 1 production script.** Roy et al. harmonisation, GMW union mask, diagnostics D1–D8 |
-| `01c_tidal_screening.js` | MNDWI tidal screening test. Not retained — see decisions log #14 |
-| `02_landtrendr.js` | **Phase 2 production script.** Self-contained: rebuilds composites, runs segmentation, produces the three-class map and stratum weights |
-
-### `/docs` — Documentation
-
-| File | Purpose |
-|---|---|
-| `1_decisions.docx` | Decisions log, 22 decisions with rationale and rejected alternatives |
-| `2_methodology.docx` | Draft methodology, sections 3.1–3.7 |
-| `3_questions.docx` | Supervisor briefing and open questions |
-| `4_statistics.docx` | Statistical approach: reading of Pontius & Millones (2011) and Stein et al. (2005), and the proposed mechanism |
-| `5_statistics_plain.docx` | Plain-language version of the above |
-
----
-
 ## Method summary
 
 **Phase 1 — Time-series construction.** Landsat Collection 2 Tier 1 Level-2
