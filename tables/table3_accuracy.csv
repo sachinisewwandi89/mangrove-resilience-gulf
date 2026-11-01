@@ -1,0 +1,4 @@
+Class,n labelled,Users acc,Users SE,Producers acc,Producers SE,Mapped area ha,Adjusted area ha,Adjusted SE ha,CI95 low ha,CI95 high ha
+No disturbance,150,0.76,0.035,0.885,0.0097,65762.75,56463.0542,2363.9434,51829.7251,61096.3833
+2015-16 dieback,150,0.78,0.0339,0.2691,0.0513,2522.33,7334.8555,1382.0651,4626.0079,10043.7031
+Other year,100,0.34,0.0476,0.2407,0.041,10855.56,15342.7303,2104.341,11218.2219,19467.2388

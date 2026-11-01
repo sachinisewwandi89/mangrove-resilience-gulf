@@ -1,0 +1,189 @@
+{
+  "n_pixels": 29453,
+  "area_ha": 2522.33,
+  "unrecovered": {
+    "never_reached_raw (GEE flag)": 0.267137473262486,
+    "below_threshold_now_raw": 0.36322276168811324,
+    "below_threshold_now_adjusted": 0.44372389909347093
+  },
+  "unrecovered_sensitivity_adj": {
+    "0.7": 0.3318167928564153,
+    "0.8": 0.44372389909347093,
+    "0.9": 0.5554951957355787
+  },
+  "table1": [
+    {
+      "Measure": "Magnitude of loss",
+      "Unit": "NBR",
+      "n": 29453,
+      "Median": 0.3378,
+      "Mean": 0.3618,
+      "Q1": 0.247,
+      "Q3": 0.4563
+    },
+    {
+      "Measure": "Recovery ratio, raw",
+      "Unit": "\u2013",
+      "n": 29453,
+      "Median": 0.9239,
+      "Mean": 0.9263,
+      "Q1": 0.6852,
+      "Q3": 1.1704
+    },
+    {
+      "Measure": "Recovery ratio, ENSO-adjusted",
+      "Unit": "\u2013",
+      "n": 29453,
+      "Median": 0.8523,
+      "Mean": 0.8537,
+      "Q1": 0.617,
+      "Q3": 1.0963
+    },
+    {
+      "Measure": "Recovery rate, raw",
+      "Unit": "NBR/yr",
+      "n": 29453,
+      "Median": 0.0371,
+      "Mean": 0.0399,
+      "Q1": 0.0241,
+      "Q3": 0.0554
+    },
+    {
+      "Measure": "Recovery rate, ENSO-adjusted",
+      "Unit": "NBR/yr",
+      "n": 29453,
+      "Median": 0.0344,
+      "Mean": 0.0372,
+      "Q1": 0.022,
+      "Q3": 0.0514
+    },
+    {
+      "Measure": "Years to recovery (recovered only)",
+      "Unit": "yr",
+      "n": 21585,
+      "Median": 8.0,
+      "Mean": 7.3792,
+      "Q1": 6.0,
+      "Q3": 9.0
+    },
+    {
+      "Measure": "Pre-disturbance NBR",
+      "Unit": "NBR",
+      "n": 29453,
+      "Median": 0.6474,
+      "Mean": 0.6265,
+      "Q1": 0.5535,
+      "Q3": 0.7162
+    },
+    {
+      "Measure": "Trough NBR",
+      "Unit": "NBR",
+      "n": 29453,
+      "Median": 0.2547,
+      "Mean": 0.2647,
+      "Q1": 0.1391,
+      "Q3": 0.3977
+    },
+    {
+      "Measure": "Current NBR (2023\u201325)",
+      "Unit": "NBR",
+      "n": 29453,
+      "Median": 0.6233,
+      "Mean": 0.5885,
+      "Q1": 0.515,
+      "Q3": 0.6928
+    },
+    {
+      "Measure": "Climate shift",
+      "Unit": "NBR",
+      "n": 29453,
+      "Median": 0.0194,
+      "Mean": 0.0226,
+      "Q1": 0.0063,
+      "Q3": 0.0376
+    },
+    {
+      "Measure": "LandTrendr RMSE",
+      "Unit": "NBR",
+      "n": 29453,
+      "Median": 0.0542,
+      "Mean": 0.06,
+      "Q1": 0.0425,
+      "Q3": 0.071
+    }
+  ],
+  "signal_to_noise": 6.229066888633915,
+  "independence_pixel": {
+    "rho": -0.15943626577904416,
+    "ci_low": -0.2705561417066569,
+    "ci_high": -0.031221825565969155,
+    "n_blocks": 52,
+    "n_points": 29453,
+    "naive_p": 6.262678644267096e-167
+  },
+  "independence_robustness": {
+    "magnitude vs recovery_ratio_adj": {
+      "rho": -0.15943626577904416,
+      "ci_low": -0.26773937062173453,
+      "ci_high": -0.03284222376217252,
+      "n_blocks": 52,
+      "n_points": 29453,
+      "naive_p": 6.262678644267096e-167,
+      "shares_term": "shared denominator",
+      "ci_clear_of_zero": true
+    },
+    "magnitude vs now_nbr": {
+      "rho": -0.18461505565657663,
+      "ci_low": -0.3115613341847858,
+      "ci_high": -0.07749784822856123,
+      "n_blocks": 52,
+      "n_points": 29453,
+      "naive_p": 4.302603971954046e-224,
+      "shares_term": "NO shared term",
+      "ci_clear_of_zero": true
+    },
+    "magnitude vs deficit (pre-now)": {
+      "rho": 0.29800593593425595,
+      "ci_low": 0.16695935685473248,
+      "ci_high": 0.4345921809562758,
+      "n_blocks": 52,
+      "n_points": 29453,
+      "naive_p": 0.0,
+      "shares_term": "shares pre",
+      "ci_clear_of_zero": true
+    },
+    "magnitude vs years_to_recovery": {
+      "rho": 0.2606444416620774,
+      "ci_low": 0.1549403975674284,
+      "ci_high": 0.35860533897597924,
+      "n_blocks": 52,
+      "n_points": 21585,
+      "naive_p": 0.0,
+      "shares_term": "NO shared term",
+      "ci_clear_of_zero": true
+    },
+    "pre_nbr vs now_nbr": {
+      "rho": 0.32777767527854645,
+      "ci_low": 0.182065652878844,
+      "ci_high": 0.46779488209140774,
+      "n_blocks": 52,
+      "n_points": 29453,
+      "naive_p": 0.0,
+      "shares_term": "NO shared term",
+      "ci_clear_of_zero": true
+    }
+  },
+  "km_median_years": 8.0,
+  "km_plateau_unrecovered": 0.2404659633878174,
+  "independence_segment": {
+    "rho": -0.21539407574053246,
+    "ci_low": -0.413372578909408,
+    "ci_high": 0.028606916156941928,
+    "n_blocks": 37,
+    "n_points": 126,
+    "naive_p": 0.015426881244739715
+  },
+  "decline_stage1_frac": 0.5915395228847551,
+  "decline_2014_2015": 0.1918760899994963,
+  "decline_2015_2016": 0.132491230486168
+}

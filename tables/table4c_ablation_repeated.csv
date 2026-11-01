@@ -1,0 +1,8 @@
+,r2_mean,r2_sd,fold_min,fold_max,n_predictors,delta
+all predictors,0.365,0.02,0.222,0.49,14.0,0.0
+intrinsic only,0.276,0.034,0.025,0.443,8.0,-0.088
+without climate,0.279,0.031,0.082,0.443,9.0,-0.086
+projectable set,0.349,0.015,0.174,0.473,11.0,-0.016
+without rmse,0.339,0.017,0.205,0.45,13.0,-0.026
+without pre_nbr,0.189,0.03,-0.054,0.362,13.0,-0.176
+environment only,0.122,0.03,-0.098,0.286,11.0,-0.243

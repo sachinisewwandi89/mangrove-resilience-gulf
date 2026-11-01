@@ -1,0 +1,195 @@
+{
+  "r2_spatial": 0.39126361668123966,
+  "r2_spatial_folds": [
+    0.49884892327740316,
+    0.2858827754744603,
+    0.3646929502219385,
+    0.39214709190327834,
+    0.41474634252911813
+  ],
+  "r2_random": 0.758030173677823,
+  "n_blocks": 52,
+  "n_pixels": 29453,
+  "target": "now_nbr",
+  "predictors": [
+    "pre_nbr",
+    "magnitude",
+    "dist_to_survivor",
+    "dist_to_edge",
+    "patch_area",
+    "mangrove_frac_1km",
+    "climate_shift",
+    "rmse",
+    "dist_to_channel_m",
+    "rain_2015_mm",
+    "rain_recovery_mm",
+    "tmax_2015_C",
+    "tmax_recovery_C",
+    "tmin_recovery_C"
+  ],
+  "ablation": {
+    "all predictors": 0.3913,
+    "without rmse": 0.3551,
+    "without pre_nbr": 0.2149,
+    "environment only": 0.1337,
+    "projectable set": 0.3757,
+    "without climate": 0.2727
+  },
+  "importance": [
+    {
+      "covariate": "pre_nbr",
+      "importance": 0.31265656643568185,
+      "sd_across_folds": 0.054793040830580654
+    },
+    {
+      "covariate": "rmse",
+      "importance": 0.09409484055437371,
+      "sd_across_folds": 0.03065173671131806
+    },
+    {
+      "covariate": "magnitude",
+      "importance": 0.03099676371959028,
+      "sd_across_folds": 0.017731117847665737
+    },
+    {
+      "covariate": "tmax_2015_C",
+      "importance": 0.030837485755275573,
+      "sd_across_folds": 0.027545957527904622
+    },
+    {
+      "covariate": "tmax_recovery_C",
+      "importance": 0.027705192150453826,
+      "sd_across_folds": 0.021582653230870146
+    },
+    {
+      "covariate": "dist_to_channel_m",
+      "importance": 0.024309341319885647,
+      "sd_across_folds": 0.007178930713847222
+    },
+    {
+      "covariate": "climate_shift",
+      "importance": 0.023349812319157837,
+      "sd_across_folds": 0.011356894501031523
+    },
+    {
+      "covariate": "dist_to_edge",
+      "importance": 0.01719312267959914,
+      "sd_across_folds": 0.013127846649302284
+    },
+    {
+      "covariate": "tmin_recovery_C",
+      "importance": 0.01547218005514639,
+      "sd_across_folds": 0.014579954645374977
+    },
+    {
+      "covariate": "rain_recovery_mm",
+      "importance": 0.01183864083740897,
+      "sd_across_folds": 0.00977773900687608
+    },
+    {
+      "covariate": "patch_area",
+      "importance": 0.009959440419528221,
+      "sd_across_folds": 0.019933831614431078
+    },
+    {
+      "covariate": "mangrove_frac_1km",
+      "importance": 0.006763846812762872,
+      "sd_across_folds": 0.009080523219892585
+    },
+    {
+      "covariate": "dist_to_survivor",
+      "importance": 0.0025375307490722986,
+      "sd_across_folds": 0.002549034312657338
+    },
+    {
+      "covariate": "rain_2015_mm",
+      "importance": 0.0012220976773761616,
+      "sd_across_folds": 0.0064981147654441
+    }
+  ],
+  "propagule_trend_nbr": 0.016418884999999994,
+  "propagule_by_region": {
+    "west": {
+      "rho": -0.17471650141625913,
+      "ci": [
+        -0.23217598146304552,
+        -0.04227866979183971
+      ],
+      "n_blocks": 21,
+      "ci_clear_of_zero": true
+    },
+    "east": {
+      "rho": 0.01880179649789912,
+      "ci": [
+        -0.069720774300128,
+        0.10270118605654481
+      ],
+      "n_blocks": 31,
+      "ci_clear_of_zero": false
+    },
+    "all": {
+      "rho": 0.02565399166256008,
+      "ci": [
+        -0.05592130828546484,
+        0.1002558956162672
+      ],
+      "n_blocks": 52,
+      "ci_clear_of_zero": false
+    }
+  },
+  "propagule_confound_strata_clear": 6,
+  "propagule_confound_strata_total": 10,
+  "capacity_segments": 116,
+  "capacity_worst": [
+    {
+      "rank": 1,
+      "lon": 135.275,
+      "lat": -14.725,
+      "region": "west",
+      "dieback_ha": 5.309627542185855,
+      "frac_unrecovered": 1.0,
+      "unrec_lo": 1.0,
+      "unrec_hi": 1.0
+    },
+    {
+      "rank": 2,
+      "lon": 135.47500000000002,
+      "lat": -14.675,
+      "region": "west",
+      "dieback_ha": 3.254287848436492,
+      "frac_unrecovered": 0.9473684210526315,
+      "unrec_lo": 0.868421052631579,
+      "unrec_hi": 1.0
+    },
+    {
+      "rank": 3,
+      "lon": 135.775,
+      "lat": -14.225,
+      "region": "west",
+      "dieback_ha": 6.508575696872984,
+      "frac_unrecovered": 0.8947368421052632,
+      "unrec_lo": 0.8289473684210527,
+      "unrec_hi": 0.9605263157894737
+    },
+    {
+      "rank": 4,
+      "lon": 141.07500000000002,
+      "lat": -16.825000000000003,
+      "region": "east",
+      "dieback_ha": 7.279328082028995,
+      "frac_unrecovered": 0.8941176470588236,
+      "unrec_lo": 0.8235294117647058,
+      "unrec_hi": 0.9529411764705882
+    },
+    {
+      "rank": 5,
+      "lon": 136.57500000000002,
+      "lat": -15.825000000000001,
+      "region": "west",
+      "dieback_ha": 3.5112053101551624,
+      "frac_unrecovered": 0.8780487804878049,
+      "unrec_lo": 0.7560975609756098,
+      "unrec_hi": 0.975609756097561
+    }
+  ]
+}
