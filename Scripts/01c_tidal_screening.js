@@ -5,7 +5,7 @@
 
 
 // ---- 1. Study area and masks 
-var gulf = ee.Geometry.Rectangle([135.0, -18.0, 141.5, -12.5]);
+var gulf = ee.Geometry.Rectangle([135.0, -18.0, 141.5, -14.0]);
 
 var gmwUnion = ee.Image('projects/earthengine-legacy/assets/projects/'
   + 'sat-io/open-datasets/GMW/union/gmw_v3_mng_union');
